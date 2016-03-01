@@ -1,0 +1,88 @@
+{
+	"RegularUser": [{
+		"id": 1,
+		"active": true,
+		"email": "krassen22@gmail.com",
+		"password": "saddassaddas",
+		"firstName": "Krassen",
+		"lastName": "Angelov",
+		"username": "krassen22",
+		"sex": "male",
+		"age": 18,
+		"activities": [{
+			"id": 1,
+			"activityType": "reading",
+			"description": "reading a book",
+			"date": "2016-03-01",
+			"duration": 10.2
+		}, {
+			"id": 2,
+			"activityType": "working",
+			"description": "working on a project",
+			"date": "2016-03-02",
+			"duration": 5.4
+		}]
+	}, {
+		"id": 2,
+		"active": false,
+		"email": "gmail@gmail.com",
+		"password": "gmailgmail",
+		"firstName": "Gmail",
+		"lastName": "Gmail",
+		"username": "gmail",
+		"sex": "female",
+		"age": 13,
+		"activities": [{
+			"id": 1,
+			"activityType": "reading",
+			"description": "reading a book",
+			"date": "2016-04-02",
+			"duration": 15.3
+		}, {
+			"id": 2,
+			"activityType": "working",
+			"description": "working on a project",
+			"date": "2016-04-03",
+			"duration": 6.0
+		}]
+	}, {
+		"id": 3,
+		"active": true,
+		"email": "georgi@gmail.com",
+		"password": "georgigeorgi",
+		"firstName": "Georgi",
+		"lastName": "Georgiev",
+		"username": "georgi",
+		"sex": "male",
+		"age": 20,
+		"activities": [{
+			"id": 1,
+			"activityType": "playing",
+			"description": "playing a game",
+			"date": "2016-05-03",
+			"duration": 1.1
+		}, {
+			"id": 2,
+			"activityType": "watching",
+			"description": "watching movies",
+			"date": "2016-05-04",
+			"duration": 6.8
+		}]
+	}],
+	
+	"Administrator": [{
+		"id": 1,
+		"email": "admin@gmail.com",
+		"password": "adminadmin",
+		"firstName": "Admin",
+		"lastName": "Admin",
+		"username": "admin"
+	},{
+		"id": 2,
+		"email": "admin2@gmail.com",
+		"password": "admin2admin2",
+		"firstName": "Admin2",
+		"lastName": "Admin2",
+		"username": "admin2"
+	}]
+}
