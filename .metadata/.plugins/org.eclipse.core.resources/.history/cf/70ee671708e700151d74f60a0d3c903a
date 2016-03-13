@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<meta name="description" content="Activity time analyzer and optimizer" />
+<meta name="keywords" content="activity time analyzer optimizer" />
+<meta name="author" content="Krassen Angelov" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../pages/assets/css/pHome.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">The Time Is Ours</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+          	<li>
+              <a href="#">Statistics</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" target="_blank">Login</a></li>
+            <li><a href="#" target="_blank">Sign in</a></li>
+          </ul>
+        </div>
+      </div>
+     </div>
+     
+    <img class="picture" style="repeat-x;"src="../pages/assets/images/home/Grey-Texture-Background-and-Wallpaper-16.jpg" alt="Grey-Texture-Background">
+
+
+</body>
+</html>

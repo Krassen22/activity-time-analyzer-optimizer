@@ -1,0 +1,5 @@
+img .picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

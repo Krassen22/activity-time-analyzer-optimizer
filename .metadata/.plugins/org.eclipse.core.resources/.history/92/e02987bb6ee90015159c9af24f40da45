@@ -1,0 +1,27 @@
+.picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:99%; 
+	height:98%;
+}
+.pictures {
+	display: block;
+	width:50%; 
+}
+
+
+#description{
+	position: absolute;
+    left: 11%;
+    top: 28%;
+    width:75%;
+    background-color: white;
+    border: 2px solid;
+    padding-left: 2%;
+    border-radius: 15px;  
+}
+
+#description-text{
+	font-size: 28px;  
+}

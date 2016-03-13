@@ -1,0 +1,21 @@
+.picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:99%; 
+	height:98%;
+}
+
+#block-level-button {
+	position: absolute;
+    left: 25%;
+    top: 40%;
+    width:50%; 
+}
+
+#description-text {
+	position: absolute;
+    left: 25%;
+    top: 30%;
+    width:50%;
+}
