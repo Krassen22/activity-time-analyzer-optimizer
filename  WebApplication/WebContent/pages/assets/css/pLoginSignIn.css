@@ -1,0 +1,19 @@
+.title {
+	text-font: 50px;
+	paddind-bottom: 2%;
+}
+
+.enter-form {
+	position: absolute;
+    left: 30%;
+    top: 28%;
+    width:40%;
+    background-color: white;
+    border: 2px solid;
+    padding: 0% 2% 2% 2%;
+    border-radius: 15px
+}
+
+button {
+	width:40%;
+}

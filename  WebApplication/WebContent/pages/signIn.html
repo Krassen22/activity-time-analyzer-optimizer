@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+<meta name="author" content="Krassen Angelov" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Sign in</title>
+<link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../pages/assets/css/pHome.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../pages/assets/css/pLoginSignIn.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="shortcut icon" href="../pages/assets/images/favicon/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">The Time Is Ours</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+          	<li>
+              <a href="#">Statistics</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html" target="_blank">Login</a></li>
+            <li><a href="#" target="_blank">Sign in</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>   
+	<img class="picture" src="../pages/assets/images/home/Grey-Texture-Background-and-Wallpaper-16.jpg" alt="Grey-Texture-Background" >
+	<div class="enter-form">
+		<div class="title"> 
+			<h2><b>Sign in</b></h2>
+		</div>
+		<div class="form-group">
+  			<label class="control-label" for="inputDefault">E-mail</label>
+  			<input type="text" class="form-control" name="email">
+  		</div>
+  		<div class="form-group">
+  			<label class="control-label" for="inputDefault">Password</label>
+  			<input type="text" class="form-control" name="password">
+  		</div>
+  		<div class="form-group">
+  			<label class="control-label" for="inputDefault">Username</label>
+  			<input type="text" class="form-control" name="username">
+  		</div>
+  		<button type="button" class="btn btn-primary" id="createUserButton">Create</button>
+  	</div>
+  	
+	
+		<script type="text/javascript" src="../libs/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../libs/lodash-3.10.1.js"></script>
+		<script type="text/javascript" src="../scripts/pSignIn.js"></script>
+</body>
+</html>
