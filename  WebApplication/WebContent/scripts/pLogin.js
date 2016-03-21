@@ -1,3 +1,4 @@
+var targetUserId;
 $(document).ready(function() {
 	"use strict";
 	var ENDPOINT = "http://localhost:3000/RegularUser";
@@ -13,26 +14,26 @@ $(document).ready(function() {
 		}).then(function(response) {
 			_.forEach(response, function(user) {
 				if(user.username == username && user.password == password){
-					userId = user.userId;
+					userId = user.id;
 				}
 			});
 			if(userId != false) {
+				targetUserId = userId;
+				alert(targetUserId);
 				window.location.assign("../pages/wallOf.html");
 			}else{
 				alert("Wrong username or password");
 				$("[name='username']").val("");
 				$("[name='password']").val("");
 			}
-			return userId;
 		});
 	}
 	function login() {
 		$("#enterUserButton").click(function() {
 			var username = $("[name='username']").val();
 			var password = $("[name='password']").val();
-			var userId = loginChecker(username, password);
+			loginChecker(username, password);
 		});
 	}
-	
 	login();
 });

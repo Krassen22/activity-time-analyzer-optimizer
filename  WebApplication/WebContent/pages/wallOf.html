@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<meta name="author" content="Krassen Angelov" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Timers</title>
+<link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../pages/assets/css/wallOf.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="shortcut icon" href="../pages/assets/images/favicon/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">The Time Is Ours</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+          	<li>
+              <a href="#">Statistics</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a target="_blank">Welcome:</a></li>
+            <li><a id="userName"target="_blank">userId</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+ <div id="content">   
+    <div id="timers">
+    	<div class="jumbotron">
+  			<h1>Set your activity timer</h1>
+ 			<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  			<form action="" method="">
+				<div id="jsalarmclock">
+					<div><div class="leftcolumn">Current Time:</div> <span id="jsalarm_ct" style="letter-spacing: 2px"></span></div>
+					<div><div class="leftcolumn">Set Alarm:</div> <span><select></select> Hour</span> <span><select></select> Minutes</span> <span><select></select> Seconds</span></div>
+					<div><div class="leftcolumn">Set Action:</div> <input type="text" id="musicloc" size="55" value="https://www.youtube.com/watch?v=B7xai5u_tnk" /> <span style="font: normal 11px Tahoma">*Location of page to launch</span></div>
+					<input class="btn btn-primary type="submit" value="Set Alarm!" id="submitbutton" /> <input  class="btn btn-primary type="reset" value="reset" id="resetbutton" />
+				</div>
+			</form>
+		</div>
+	</div>
+     
+    <div id="statistics">
+    
+  	  
+    </div>
+    
+    <div id="help">
+    
+    
+    </div>
+</div>
+    
+		<script type="text/javascript" src="../libs/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../libs/lodash-3.10.1.js"></script>	
+		<script type="text/javascript" src="../scripts/pLogin.js"></script>
+		<script type="text/javascript" src="../scripts/wallOf.js"></script>
+</body>
+</html>

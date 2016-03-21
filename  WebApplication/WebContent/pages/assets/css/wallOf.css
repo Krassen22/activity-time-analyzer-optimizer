@@ -1,0 +1,37 @@
+
+#content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:1400px; 
+	height:98%;
+}
+
+
+/* Timers */
+#timers {
+    margin-top: 4.5%;
+}
+
+#jsalarmclock{
+font-family: Tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+#jsalarmclock div{
+margin-bottom: 0.8em;
+}
+
+#jsalarmclock div.leftcolumn{
+float: left;
+width: 150px;
+font-size: 20px;
+clear: left;
+}
+
+#jsalarmclock span{
+margin-right: 5px;
+}
+
+/* ---------------------------- */

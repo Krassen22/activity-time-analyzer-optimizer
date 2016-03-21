@@ -16,14 +16,18 @@
           "activityType": "reading",
           "description": "reading a book",
           "date": "2016-03-01",
-          "duration": 10.2
+          "hour": 20,
+          "minute": 30,
+          "second": 20
         },
         {
           "id": 2,
           "activityType": "working",
           "description": "working on a project",
           "date": "2016-03-02",
-          "duration": 5.4
+          "hour": 22,
+          "minute": 30,
+          "second": 20
         }
       ]
     },
@@ -43,14 +47,18 @@
           "activityType": "reading",
           "description": "reading a book",
           "date": "2016-04-02",
-          "duration": 15.3
+          "hour": 21,
+          "minute": 20,
+          "second": 10
         },
         {
           "id": 2,
           "activityType": "working",
           "description": "working on a project",
           "date": "2016-04-03",
-          "duration": 6
+          "hour": 22,
+          "minute": 20,
+          "second": 20
         }
       ]
     },
@@ -70,14 +78,18 @@
           "activityType": "playing",
           "description": "playing a game",
           "date": "2016-05-03",
-          "duration": 1.1
+          "hour": 22,
+          "minute": 30,
+          "second": 20
         },
         {
           "id": 2,
           "activityType": "watching",
           "description": "watching movies",
           "date": "2016-05-04",
-          "duration": 6.8
+          "hour": 23,
+          "minute": 30,
+          "second": 20
         }
       ]
     }
