@@ -27,6 +27,10 @@ $(document).ready(function() {
 		showPanel("help");
 	});
 	
+	$(document).on("click", "#statisticsButton", function() {
+		showPanel("statistics");
+	});
+	
 	$(document).on("click", "#timersButton", function() {
 		showPanel("timers");
 	});
