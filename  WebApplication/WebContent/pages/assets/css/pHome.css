@@ -8,7 +8,7 @@
 .pictures {
 	display: inline-block;
 	width:45%;
-	height:300px;
+	height:400px;
 	border-radius: 5px;
 	padding-left: 5px;
 	padding-bottom: 5px; 
@@ -18,12 +18,12 @@
 #description{
 	position: absolute;
     left: 11%;
-    top: 28%;
+    top: 23%;
     width:75%;
     background-color: white;
-    border: 2px solid;
+    border: 1px solid;
     padding-left: 2%;
-    border-radius: 15px;  
+    border-radius: 50px;  
 }
 
 #description-text{
