@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <head>
+<meta name="description" content="Activity time analyzer and optimizer" />
+<meta name="keywords" content="activity time analyzer optimizer" />
 <meta name="author" content="Krassen Angelov" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Timers</title>
+<title>Home</title>
 <link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="../pages/assets/css/wallOf.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../pages/assets/css/index.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="../pages/assets/css/footer.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="shortcut icon" href="../pages/assets/images/favicon/favicon.ico" type="image/x-icon" />
 
@@ -13,7 +15,7 @@
 <div class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
         <div class="navbar-header">
-          <a href="#" id="timersButton" class="navbar-brand">The Time Is Ours</a>
+          <a href="#" id="descriptionBottom" class="navbar-brand">The Time Is Ours</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -31,29 +33,37 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank">Welcome,</a></li>
-            <li><a id="userName"target="_blank">userName</a></li>
+            <li><a href="login.html" target="_blank">Login</a></li>
+            <li><a href="signIn.html" target="_blank">Sign in</a></li>
           </ul>
         </div>
       </div>
-    </div>
-    
- <div id="content">   
-    <div id="timers">
-    	<div class="jumbotron">
-  			<h1>Set your activity timer</h1>
- 			<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  			<form action="" method="">
-				<div id="jsalarmclock">
-					<div><div class="leftcolumn">Current Time:</div> <span id="jsalarm_ct" style="letter-spacing: 2px"></span></div>
-					<div><div class="leftcolumn">Set Alarm:</div> <span><select></select> Hour</span> <span><select></select> Minutes</span> <span><select></select> Seconds</span></div>
-					<div><div class="leftcolumn">Set Action:</div> <input type="text" id="musicloc" size="55" value="https://www.youtube.com/watch?v=B7xai5u_tnk" /> <span style="font: normal 11px Tahoma">*Location of page to launch</span></div>
-					<input class="btn btn-primary type="submit" value="Set Alarm!" id="submitbutton" /> <input  class="btn btn-primary type="reset" value="reset" id="resetbutton" />
-				</div>
-			</form>
-		</div>
-	</div>
+     </div>
      
+	<img class="picture" src="../pages/assets/images/home/Grey-Texture-Background-and-Wallpaper-16.jpg" alt="Grey-Texture-Background" >
+	
+	
+<div id="content">
+	<div id="description">
+		<div class="jumbotron">
+			<h2>Bonorum feugait eum ad, altera mentitum qui an</h2>
+			<p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			Nullam id dolor id nibh ultricies vehicula.</p>
+			<p>Lorem ipsum dolor sit amet, te duo tale dolores, munere melius evertitur ut eam. 
+			Sea nonumy latine accusamus in, te nonumes volutpat has. Id sale ponderum sensibus sea. 
+			Ea epicurei officiis pro, eu dicunt sensibus consequat has, id essent facilisis accommodare quo. 
+			Eam an dico persequeris, ea duo verear mentitum concludaturque, per in virtute detraxit.</p>
+			<p>Splendide mnesarchum referrentur est ne, ea magna tollit vidisse pro. Quo numquam dissentiet 
+			in, mel eius munere ullamcorper ex, at illum facilisi usu. Volumus detracto qui in, quo purto docendi 
+			deterruisset et, an sit iuvaret graecis adversarium. Putant convenire iracundia vix at, at sea semper 
+			scripserit repudiandae. Mel legimus adipisci ad.</strong></p>
+			<p><small>Velit populo feugiat duo ea, ridens legendos ad duo. 
+			Erat contentiones ut usu, ei pri ipsum feugait partiendo.<small></em></p>
+			<img class="pictures" src="../pages/assets/images/home/creativity_water_spray_drops_flower_rose_desktop_images_TVIdSpG.jpg" alt="creativity_water_spray_drops_flower_rose">
+		<img class="pictures" src="../pages/assets/images/home/River-Reuss-Lucerne-Switzerland-Images_mGKFK0o.jpg" alt="River-Reuss-Lucerne-Switzerland">
+		</div>
+	</div>   
     <div id="statistics">
     	<div class="jumbotron">
   			<h1>Statistics</h1>
@@ -83,7 +93,6 @@
 			</div>
  		</div>
     </div>
-    
     <div id="help">
     	<div class="jumbotron">
   			<h1>Help</h1>
@@ -94,20 +103,13 @@
 			   His constituto accommodare ei, dictas cetero ponderum usu id. Placerat tractatos has ei, qui ex minim sententiae. Scripta utroque civibus eos id, ad vix novum mollis conclusionemque. Ex alii debet honestatis vis. Ferri ceteros ut has, at nonumes voluptua detraxit sea.</p>	
 		</div>
     </div>
-    
-    <div id="editUser">
-    
-    </div>
+ </div>
 	
-</div>
-
- <div id="footer">
-	<p>Copyright (c) 2016 mysite.com - All rights reserved</p>
-</div>
-    
-		<script type="text/javascript" src="../libs/jquery-2.1.4.js"></script>
-		<script type="text/javascript" src="../libs/lodash-3.10.1.js"></script>	
-		<script type="text/javascript" src="../scripts/pLogin.js"></script>
-		<script type="text/javascript" src="../scripts/wallOf.js"></script>
+	<div id="footer">
+		<p>Copyright (c) 2016 mysite.com - All rights reserved</p>
+	</div>
+	<script type="text/javascript" src="../libs/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../libs/lodash-3.10.1.js"></script>
+	<script type="text/javascript" src="../scripts/index.js"></script>	
 </body>
 </html>

@@ -14,18 +14,27 @@
 	padding-bottom: 5px; 
 }
 
-
-#description{
+#content {
 	position: absolute;
     left: 11%;
     top: 23%;
     width:75%;
-    background-color: white;
-    border: 1px solid;
-    padding-left: 2%;
-    border-radius: 50px;  
 }
 
-#description-text{
-	font-size: 28px;  
+
+/* Description */
+#description {
+    margin-top: 4.5%;
 }
+
+/* Help */
+#help {
+    margin-top: 4.5%;
+}
+
+/* Statistics */
+#statistics {
+    margin-top: 4.5%;
+}
+
+

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	"use strict";
 	var ENDPOINT = "http://localhost:3000/RegularUser/";
-	var targetUserId;
+	// var targetUserId;
 	function userEndpoint(userId) {
 		return ENDPOINT + "/" + userId;
 	}
@@ -44,11 +44,11 @@ $(document).ready(function() {
 				$("[name='username']").val("");
 			}else{
 				createUser(userObject);
-				var json = getAllRegularUsers();
-				alert(json);
-				var lastAdded = json[ Object.keys(obj).sort().pop()];
-				targetUserId = lastAdded.id;
-				alert(targetUserId);
+				// var json = getAllRegularUsers();
+				// alert(json);
+				// var lastAdded = json[ Object.keys(obj).sort().pop()];
+				// targetUserId = lastAdded.id;
+				// alert(targetUserId);
 				window.location.assign("../pages/wallOf.html");
 			}
 		});

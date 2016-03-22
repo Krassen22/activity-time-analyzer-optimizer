@@ -19,7 +19,7 @@ $(document).ready(function() {
 			});
 			if(userId != false) {
 				targetUserId = userId;
-				alert(targetUserId);
+				// alert(targetUserId);
 				window.location.assign("../pages/wallOf.html");
 			}else{
 				alert("Wrong username or password");

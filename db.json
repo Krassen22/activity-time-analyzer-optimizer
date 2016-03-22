@@ -92,6 +92,12 @@
           "second": 20
         }
       ]
+    },
+    {
+      "email": "krassen@gmail.com",
+      "password": "krassenkrassen",
+      "username": "Krassen",
+      "id": 4
     }
   ],
   "Administrator": [

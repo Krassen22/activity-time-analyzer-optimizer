@@ -6,7 +6,7 @@ $(document).ready(function() {
 		return ENDPOINT + "/" + userId;
 	}
 	function getRegularUsers(){
-		return $.ajax(userEndpoint(2), {
+		return $.ajax(userEndpoint(4), {
 			method: "GET",
 			async: false,
 			dataType: "json"
