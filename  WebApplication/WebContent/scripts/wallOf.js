@@ -12,6 +12,25 @@ $(document).ready(function() {
 			dataType: "json"
 		});
 	}
+	
+	
+	function showPanel(panelName) {
+		var ALL_PANELS = ["timers", "statistics", "help", "editUser"];
+		_.forEach(ALL_PANELS, function(nextValue) {
+			$("#"+nextValue).hide();
+		});
+		$("#"+panelName).fadeIn();
+	}
+	
+	
+	$(document).on("click", "#helpButton", function() {
+		showPanel("help");
+	});
+	
+	$(document).on("click", "#timersButton", function() {
+		showPanel("timers");
+	});
+	
 	$( "#userName" ).text(getRegularUsers().responseJSON.username);
 	// Timers
 	var jsalarm={
@@ -73,6 +92,7 @@ $(document).ready(function() {
 		}
 	}
 
+	showPanel("timers");
 	// alert(targetUserId);
 	jsalarm.init();
 	
