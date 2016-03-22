@@ -6,7 +6,7 @@ $(document).ready(function() {
 		_.forEach(ALL_PANELS, function(nextValue) {
 			$("#"+nextValue).hide();
 		});
-		$("#"+panelName).fadeIn();
+		$("#"+panelName).show();
 	}
 	
 	
