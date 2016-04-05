@@ -7,6 +7,21 @@
 	height:98%;
 }
 
+/* List of timers */
+#list-of-timers {
+  position: fixed;
+  right: 0;
+  top:20%;
+  width: 350px;
+  margin-top: -2.5em;
+}
+
+/* List of activities */
+#activities {
+    margin-top: 4.5%;
+    width: 1200px;
+}
+
 /* Help */
 #help {
     margin-top: 4.5%;
@@ -18,8 +33,9 @@
 }
 
 /* Timers */
-#timers {
+#add-timer {
     margin-top: 4.5%;
+    width: 1200px;
 }
 
 #jsalarmclock{

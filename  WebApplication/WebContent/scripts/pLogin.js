@@ -1,4 +1,3 @@
-var targetUserId;
 $(document).ready(function() {
 	"use strict";
 	var ENDPOINT = "http://localhost:3000/RegularUser";
@@ -18,8 +17,7 @@ $(document).ready(function() {
 				}
 			});
 			if(userId != false) {
-				targetUserId = userId;
-				// alert(targetUserId);
+				document.cookie = userId;
 				window.location.assign("../pages/wallOf.html");
 			}else{
 				alert("Wrong username or password");

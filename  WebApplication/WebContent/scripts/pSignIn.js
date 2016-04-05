@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	"use strict";
 	var ENDPOINT = "http://localhost:3000/RegularUser/";
-	// var targetUserId;
+	
 	function userEndpoint(userId) {
 		return ENDPOINT + "/" + userId;
 	}
@@ -31,7 +31,7 @@ $(document).ready(function() {
 			_.forEach(response, function(user) {
 				if(user.email == email) {
 					alert("E-mail already in use");
-					existUser = true; 
+					existUser = true;
 				}
 				if(user.username == username) {
 					alert("Username already in use");
@@ -44,11 +44,12 @@ $(document).ready(function() {
 				$("[name='username']").val("");
 			}else{
 				createUser(userObject);
-				// var json = getAllRegularUsers();
-				// alert(json);
-				// var lastAdded = json[ Object.keys(obj).sort().pop()];
-				// targetUserId = lastAdded.id;
-				// alert(targetUserId);
+//				alert(userObject);
+//				var json = getAllRegularUsers();
+//				alert(json);
+//				var lastAdded = json[ Object.keys(obj).sort().pop()];
+//				document.cookie = lastAdded.id;
+//				alert(document.cookie);
 				window.location.assign("../pages/wallOf.html");
 			}
 		});

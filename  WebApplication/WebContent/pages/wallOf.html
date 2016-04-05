@@ -40,21 +40,79 @@
     </div>
     
  <div id="content">   
-    <div id="timers">
+    <div id="add-timer">
     	<div class="jumbotron">
   			<h1>Set your activity timer</h1>
- 			<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+ 			<p>Adhuc malis iriure vix in. No legere iudicabit nec, vim ei periculis rationibus. Usu ad causae dolorem, per an omnis euismod urbanitas. Te eam pertinax concludaturque, no nam ferri ubique debitis. Sed definiebas incorrupte an, ius cu consul vidisse, ex dolorum mentitum mel.</p>
   			<form action="" method="">
 				<div id="jsalarmclock">
 					<div><div class="leftcolumn">Current Time:</div> <span id="jsalarm_ct" style="letter-spacing: 2px"></span></div>
 					<div><div class="leftcolumn">Set Alarm:</div> <span><select></select> Hour</span> <span><select></select> Minutes</span> <span><select></select> Seconds</span></div>
 					<div><div class="leftcolumn">Set Action:</div> <input type="text" id="musicloc" size="55" value="https://www.youtube.com/watch?v=B7xai5u_tnk" /> <span style="font: normal 11px Tahoma">*Location of page to launch</span></div>
+					<div class="form-group">
+      				<label for="select" class="col-lg-2 control-label">Selects</label>
+				      <div class="col-lg-10">
+				        <select class="form-control" id="select">
+				          <option>Reading</option>
+				          <option>Working</option>
+				          <option>Playing</option>
+				          <option>Watching</option>
+				        </select>
+				      </div>
+				    </div>
 					<input class="btn btn-primary type="submit" value="Set Alarm!" id="submitbutton" /> <input  class="btn btn-primary type="reset" value="reset" id="resetbutton" />
 				</div>
 			</form>
 		</div>
 	</div>
-     
+	
+	<div id="activities">
+		<div class="jumbotron">
+		<div id="reading-activity">
+			Reading
+		</div>
+		<div id="working-activity">
+			Working
+		</div>
+		<div id="playing-activity">
+			Playing
+		</div>
+		<div id="watching-activity">
+			Watching		
+		</div>
+		</div>
+	</div>
+	<div id="list-of-timers">
+		<ul class="list-group">
+			<a href="#" id="add-activity-button" class="btn btn-primary btn-sm">Add activity</a>
+			<br></br>
+  			<li class="list-group-item">
+  				<a href="#" class="list-group-item" id="reading">
+    				<span class="badge" id="reading-count">10</span>
+    				Reading
+    			</a>
+  			</li>
+  			<li class="list-group-item" >
+  				<a href="#" class="list-group-item" id="working">
+    				<span class="badge" id="working-count">23</span>
+    				Working
+  				</a>
+  			</li>
+  			<li class="list-group-item">
+  				<a href="#" class="list-group-item" id="playing">
+  					<span class="badge" id="playing-count">15</span>
+  					Playing
+  				</a>
+  			</li>
+  			<li class="list-group-item">
+  				<a href="#" class="list-group-item" id="watching">
+  					<span class="badge" id="watching-count">30</span>
+  					Watching
+  				</a>
+  			</li>
+		</ul>
+	</div>
+	
     <div id="statistics">
     	<div class="jumbotron">
   			<h1>Statistics</h1>
@@ -67,7 +125,7 @@
   			</p>
   			<h2>Activity</h2>
   			<div class="progress progress-striped active">
-  				<div class="progress-bar"  style="width: 45%"></div>
+  				<div class="progress-bar" id="activities-part" style="width: 45%"></div>
 			</div>
 			<p>Ludus tacimates reformidans ad vix, in omittam reprehendunt necessitatibus duo. 
 			   Et his causae praesent, pro ea congue nominati antiopam, eu prima omnesque scriptorem mea. 
@@ -77,10 +135,10 @@
 			</p>
 			<h3>Reading, Working, Playing, Watching </h3>
 			<div class="progress">
-				<div class="progress-bar progress-bar-info" style="width: 35%"></div>
-  				<div class="progress-bar progress-bar-success" style="width: 35%"></div>
-  				<div class="progress-bar progress-bar-warning" style="width: 20%"></div>
-  				<div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+				<div class="progress-bar progress-bar-info" id="reading-activity-part" style="width: 35%"></div>
+  				<div class="progress-bar progress-bar-success" id="working-activity-part" style="width: 35%"></div>
+  				<div class="progress-bar progress-bar-warning" id="playing-activity-part" style="width: 20%"></div>
+  				<div class="progress-bar progress-bar-danger" id="watching-activity-part" style="width: 10%"></div>
 			</div>
  		</div>
     </div>
@@ -97,7 +155,27 @@
     </div>
     
     <div id="editUser">
-    
+    	<div class="form-group">
+  			<label class="control-label" for="inputDefault">Username</label>
+  			<input type="text" class="form-control" name="username">
+  		</div>
+  		<div class="form-group">
+  			<label class="control-label" for="inputDefault">Password</label>
+  			<input type="text" class="form-control" name="password">
+  		</div>
+  		<div class="form-group">
+  			<label class="control-label" for="inputDefault">First name</label>
+  			<input type="text" class="form-control" name="firstName">
+  		</div>
+  		<div class="form-group">
+  			<label class="control-label" for="inputDefault">Last name</label>
+  			<input type="text" class="form-control" name="lastName">
+  		</div>
+  		<div class="form-group">
+  			<label class="control-label" for="inputDefault">Age</label>
+  			<input type="text" class="form-control" name="age">
+  		</div>	
+  		<button type="button" class="btn btn-primary" id="saveUserButton">Save</button>
     </div>
 	
 </div>
